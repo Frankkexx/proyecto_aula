@@ -1,0 +1,120 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #B31616;
+}
+body{
+    background-image: url(imagenes/fondo.png);
+    width: 100vw;
+    height: 100vh;
+}
+#top {
+    height: 100px;
+    background-color: #194d84;
+}
+
+.contenedor{
+    width: 500px;
+    margin: 0 auto;
+}
+#logo{
+	width: 20%;
+    height:20%;
+}
+nav{
+    margin-top: 10px;
+}
+.arriba{
+    color: black;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-weight: bold
+}
+
+#menu{
+    width: 20%;
+    height: 550px;
+    background-color: #194d84;
+    float: left ;    
+}
+.datos{
+    width: 100%;
+    height: 300px;
+    background-color: gray; 
+}
+#barraizq{
+    padding: 320px 0px 0px 0px;
+}
+li{
+    padding: 10px;
+}
+.fotodocente{
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.fotodocente img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -75px;
+}
+.cuerpo{
+    width: 55vw;
+    height: 520px;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 20px;
+}
+.noticias{
+    width: 93%;
+    height: 100px;
+    background-color: #B31616;
+    margin: 25px;
+    border-radius: 20px;
+}
+h1{
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.derecha{
+    width: 21vw;
+    height: 550px;
+    background-color: #194d84;
+    float: right ;  
+}
+.datosder{
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+    color: black;
+    background-color: gray;
+    border-radius: 20px;
+    text-align: center;
+}
+.barrader{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 30px;
+}
